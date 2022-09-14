@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <video muted loop autoplay src="img/Success is like being pregnant_(480P).mp4" id="myvideo"></video>
+
+    <div class="contvideo">
+      <h1>landing video</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        totam dolore tempore dolorum minima aut consequuntur accusantium ipsum
+        similique quae!
+      </p>
+      <button id="btn" onclick="myFunction()">pause</button>
+    </div>
+
+    <h2 style="text-align: center">Slideshow Gallery</h2>
+
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="img/me.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="img/pexels-engin-akyurt-1446948.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="img/pexels-george-desipris-1121472.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="img/pexels-julia-sakelli-1047319.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="img/pexels-kelly-l-2930125.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="img/pexels-lalesh-aldarwish-169978.jpg" style="width: 100%" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img/me.jpg"
+            style="width: 100%"
+            onclick="currentSlide(1)"
+            alt="The Woods"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img/pexels-engin-akyurt-1446948.jpg"
+            style="width: 100%"
+            onclick="currentSlide(2)"
+            alt="Cinque Terre"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img/pexels-george-desipris-1121472.jpg"
+            style="width: 100%"
+            onclick="currentSlide(3)"
+            alt="Mountains and fjords"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img/pexels-julia-sakelli-1047319.jpg"
+            style="width: 100%"
+            onclick="currentSlide(4)"
+            alt="Northern Lights"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img/pexels-kelly-l-2930125.jpg"
+            style="width: 100%"
+            onclick="currentSlide(5)"
+            alt="Nature and sunrise"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img/pexels-lalesh-aldarwish-169978.jpg"
+            style="width: 100%"
+            onclick="currentSlide(6)"
+            alt="Snowy Mountains"
+          />
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
